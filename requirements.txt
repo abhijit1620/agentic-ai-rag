@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain
+langchain-text-splitters
+langchain-google-genai
+pinecone
+sentence-transformers
+pypdf
+python-dotenv
+pydantic

@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+
+# Local PDF data
+data/*.pdf
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
