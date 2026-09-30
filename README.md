@@ -16,8 +16,7 @@ The chatbot answers questions strictly from the **Agentic AI eBook** provided as
 - Retrieved context chunks included in the API response
 - Retrieval similarity score included in the API response
 - FastAPI REST API
-- Swagger/OpenAPI documentation
-- Simple Python implementation
+
 
 ## Architecture
 
@@ -398,12 +397,6 @@ chunk_overlap = 150
 
 Page numbers are stored as metadata so that retrieved information can be traced back to the source PDF.
 
-## Security
-
-- API keys are stored in `.env`.
-- `.env` is excluded through `.gitignore`.
-- The local PDF is excluded from Git tracking.
-- No API credentials are stored in source code.
 
 ## Running the Complete Pipeline
 
